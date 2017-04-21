@@ -1,0 +1,22 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+
+@using (Html.BeginForm())
+{
+    <h3></h3>
+    <div class="container">
+        <div class="panel">
+            <h1 class="text-info">Exemplos de Globalization</h1>
+            <br />
+            <br />
+            <p>Brasil</p>
+                <label>@ViewBag.valor</label><br />  
+                <label>@ViewBag.Data</label>
+            <hr />
+            <p>EUA</p>
+                <label>@ViewBag.valorUs</label><br />
+                <label>@ViewBag.DataUs</label>
+        </div>
+    </div>
+}
