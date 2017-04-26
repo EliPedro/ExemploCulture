@@ -17,12 +17,14 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                @Html.ActionLink("Culture e Globalization", "Index", "Globalization", new { area = "" }, new { @class = "navbar-brand" })
+                @Html.ActionLink("Multilinguagem", "Home", "Index", new { @class = "navbar-brand" })
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                    <li>@Html.ActionLink("Multilinguagem", "Home", "Index", new { area = "Admin" }, null)</li>
-                </ul>
+                    <li>@Html.ActionLink("Home", "Index", "Globalization", new { area = "" }, new { @class = "navbar-brand" })</li>
+                    <li>@Html.ActionLink(Resources.WebResources.linkSobre, "Home", "Index");
+                    <li>@Html.ActionLink(Resources.WebResources.linkContato, "Home", "Index");
+                  </ul>
             </div>
         </div>
     </div>

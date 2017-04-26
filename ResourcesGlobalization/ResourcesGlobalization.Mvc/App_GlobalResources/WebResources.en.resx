@@ -120,6 +120,12 @@
   <data name="botaoEnviar" xml:space="preserve">
     <value>Send</value>
   </data>
+  <data name="linkContato" xml:space="preserve">
+    <value>Contact</value>
+  </data>
+  <data name="linkSobre" xml:space="preserve">
+    <value>About</value>
+  </data>
   <data name="mensagemInicial" xml:space="preserve">
     <value>Welcome!</value>
   </data>

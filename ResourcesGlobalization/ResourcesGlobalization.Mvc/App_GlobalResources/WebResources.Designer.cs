@@ -70,6 +70,24 @@ namespace Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Contato.
+        /// </summary>
+        internal static string linkContato {
+            get {
+                return ResourceManager.GetString("linkContato", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Sobre.
+        /// </summary>
+        internal static string linkSobre {
+            get {
+                return ResourceManager.GetString("linkSobre", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Bem vindo!.
         /// </summary>
         internal static string mensagemInicial {
