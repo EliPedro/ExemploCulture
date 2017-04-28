@@ -24,6 +24,17 @@
                     <li>@Html.ActionLink("Home", "Index", "Globalization", new { area = "" }, new { @class = "navbar-brand" })</li>
                     <li>@Html.ActionLink(Resources.WebResources.linkSobre, "Home", "Index");
                     <li>@Html.ActionLink(Resources.WebResources.linkContato, "Home", "Index");
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                            Idioma
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="@Url.Action("Change", "Language", new { LanguageAbbrevation = "pt" },null)">Portugês</a></li>
+
+                            <li><a href="@Url.Action("Change", "Language", new { LanguageAbbrevation = "en" },null)">Inglês</a></li>
+                        </ul>
+                    </li>
                   </ul>
             </div>
         </div>
